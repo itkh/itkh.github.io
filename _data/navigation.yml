@@ -14,6 +14,11 @@ main:
     url: /
   - title: "Extra Menu Item Long Title"
     url: /
+    children:
+      - title: "Child Page A1"
+        url: /child-page-a1/
+      - title: "Child Page A2"
+        url: /child-page-a2/
 
 # sidebar navigation list sample
 sidebar-sample:

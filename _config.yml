@@ -16,36 +16,36 @@ minimal_mistakes_skin    : "dark" #"default" , "air", "aqua", "contrast", "dark"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Sophal"
+title                    : "Nokor IT"
 title_separator          : "-"
 subtitle                 : "Personal blog site"
-name                     : "Sophal"
+name                     : "nokorIT"
 description              : "My personal sharing blog"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : ""
-repository               : "sophalHong/sophalhong.github.io"
+repository               : "nokor-it/nokor-it.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/ironman-icon.png"
-masthead_title           : "Sophal's blog"
+masthead_title           : "Nokor IT's blog"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
-  disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
-  discourse:
-    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
+  provider               : "facebook" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   facebook:
-    # https://developers.facebook.com/docs/plugins/comments
-    appid                :
+    # https://developers.facebook.com/docs/plugins/comments#configurator
+    appid                : 182195346452907
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
-  utterances:
-    theme                : # "github-light" (default), "github-dark"
-    issue_term           : # "pathname" (default)
-  staticman:
-    branch               : # "master"
-    endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
+#  disqus:
+#    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+#  discourse:
+#    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
+#  utterances:
+#    theme                : # "github-light" (default), "github-dark"
+#    issue_term           : # "pathname" (default)
+#  staticman:
+#    branch               : # "master"
+#    endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
 reCaptcha:
   siteKey                :
   secret                 :
@@ -96,7 +96,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Sophal HONG"
+  name             : "IT Khmer"
   avatar           : "/assets/images/sophal.jpg"
   bio              : "For what I have learned, I note and share."
   location         : "South Korea"
@@ -287,7 +287,7 @@ defaults:
   # _posts
   - scope:
       path: ""
-      type: pets
+      type: posts
     values:
       layout: single
       author_profile: true
