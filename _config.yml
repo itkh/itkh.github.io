@@ -25,7 +25,7 @@ url                      : # the base hostname & protocol for your site e.g. "ht
 baseurl                  : ""
 repository               : "itkh/itkh.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/images/ironman-icon.png"
+logo                     : "/assets/images/logo.png"
 masthead_title           : "Nokor IT's blog"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -97,7 +97,7 @@ analytics:
 # Site Author
 author:
   name             : "Nokor IT"
-  avatar           : "/assets/images/sophal.jpg"
+  avatar           : "/assets/images/bokor.jpg"
   bio              : "For what I have learned, I note and share."
   location         : "South Korea"
   email            : "tech.sophal@gmail.com"
