@@ -23,7 +23,7 @@ name                     : "nokorIT"
 description              : "My personal sharing blog"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : ""
-repository               : "nokor-it/nokor-it.github.io"
+repository               : "itkh/itkh.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/ironman-icon.png"
 masthead_title           : "Nokor IT's blog"
@@ -96,11 +96,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "IT Khmer"
+  name             : "Nokor IT"
   avatar           : "/assets/images/sophal.jpg"
   bio              : "For what I have learned, I note and share."
   location         : "South Korea"
-  email            : "sophal.tech@gmail.com"
+  email            : "tech.sophal@gmail.com"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
