@@ -15,9 +15,18 @@ header:
       url: "https://youtube.com"
 ---
 
-- 2013 : Royal University of Phnom Penh, Information Technology, BA
-- 2014 : Royal University of Phnom Penh, Information Technology, BA
-
-Non-square images can provide some unique styling issues.
-
-This post tests overlay header images.
+- Bio:
+  - Hometown: Kampot, Cambodia
+  - Current address: Seoul, South Korea
+  - Contact: tech.sophal@gmail.com
+- Education:
+  - 2013: Royal University of Phnom Penh
+    - Computer Science, BA
+  - 2014: Jeounju University
+    - Korean Language course
+  - 2015: Seoul National University
+    - Computer Science and Engineering, Master
+    - Distibuted Computing System Lab
+  - 2017 - Now: Tmax A&C
+- Experience:
+  - To be continue
