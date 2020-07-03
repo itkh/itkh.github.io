@@ -35,6 +35,10 @@ body {
   flex: 1 0 auto;
 }
 
+.article-wrap p {
+  font-size: 16px;
+}
+
 .page {
   @include breakpoint($large) {
     float: right;

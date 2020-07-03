@@ -17,6 +17,13 @@ layout: default
 <div id="main" role="main">
   {% include sidebar.html %}
 
+		{% if page.khmer_url %}
+		  <a href="{{ page.khmer_url }}" style="float:right;">ភាសាខ្មែរ</a>
+		{% endif %}
+		{% if page.english_url %}
+		  <a href="{{ page.english_url }}" style="float:right;">English</a>
+		{% endif %}
+
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
     {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
     {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
@@ -42,7 +49,13 @@ layout: default
             </nav>
           </aside>
         {% endif %}
-        {{ content }}
+
+		{% if page.lang == "km" %}
+ 		  <font size="-0.5"> {{ content }} </font>
+		{% else %}
+		  {{ content }}
+		{% endif %}
+
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
 
