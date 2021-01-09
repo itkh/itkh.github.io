@@ -35,3 +35,20 @@ kubernetes:
         url: /kubernetes/velero/velero-cephFS/
       - title: "Velero backup CephRBD"
         url: /kubernetes/velero/velero-cephRBD/
+
+# sidebar navigation list sample
+ovirt:
+  - title: "Overview"
+    children:
+      - title: "Introduction"
+        url: /ovirt/ovirt/
+  - title: "How to Install oVirt"
+    children:
+      - title: "How to Install Self-hosted Eninge"
+        url: /ovirt/ovirt-self-hosted/
+      - title: "How to Install Standalone Eninge"
+        url: /ovirt/ovirt-standalone/
+  - title: "Virtual machine"
+    children:
+      - title: "How to add and install virtual machines"
+        url: /ovirt/ovirt-install-vm/
