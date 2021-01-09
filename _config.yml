@@ -16,17 +16,17 @@ minimal_mistakes_skin    : "dark" #"default" , "air", "aqua", "contrast", "dark"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Nokor IT"
+title                    : "sophal"
 title_separator          : "-"
 subtitle                 : "Personal blog site"
-name                     : "nokorIT"
+name                     : "sophal"
 description              : "My personal sharing blog"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : ""
 repository               : "itkh/itkh.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/sophal-fav.png"
-masthead_title           : "Nokor IT's blog"
+masthead_title           : "sophal's blog"
 #breadcrumbs              : true #, false (default)
 words_per_minute         : 100
 comments:
@@ -96,7 +96,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Nokor IT"
+  name             : "Sophal HONG"
   avatar           : "/assets/images/sophal.jpg"
   bio              : "For what I have learned, I note and share."
   location         : "South Korea"
@@ -212,7 +212,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 3 # amount of posts to show
+paginate: 7 # amount of posts to show
 paginate_path: /page:num/
 timezone: Asia/Seoul
 
