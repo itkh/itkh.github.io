@@ -1,5 +1,5 @@
 ---
-title: "Nokor IT"
+title: "Sophal HONG"
 layout: single
 author_profile: true
 excerpt: |
@@ -8,7 +8,7 @@ excerpt: |
   It is the best gift that can be given to future generation.
 header:
   overlay_image: /assets/images/kampot_rsz.jpg
-  caption: "Photo credit: **Nokor IT**"
+  caption: "Photo credit: **sophal**"
   actions:
     - label: "Facebook page"
       url: "https://facebook.com/hongsophal"
