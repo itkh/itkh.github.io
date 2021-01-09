@@ -1,0 +1,1 @@
+/home/sophal/git/itkh.github.io/_cloud/ovirt/2020-04-18-ovirt-standalone.md
