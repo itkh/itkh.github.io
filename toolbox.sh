@@ -4,6 +4,9 @@
 DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" >/dev/null 2>&1 && pwd)"
 
 case "$1" in
+	serve)
+		bundle exec jekyll serve
+		;;
 	clean)
 		find "$DIR"/_posts/ -xtype l -delete
 		;;
